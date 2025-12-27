@@ -5,10 +5,7 @@ import Link from 'next/link'
 
 export default function Terms() {
   return (
-    <>
-      <title>Terms and Conditions - PT EAGLE PAPUA SEJAHTERA</title>
-      
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
         {/* Background Image Overlay */}
         <div 
           className="fixed inset-0 opacity-10 z-0"
@@ -118,9 +115,10 @@ export default function Terms() {
               <div className="flex items-center mb-4">
                 <Shield className="h-8 w-8 text-purple-400 mr-3" />
                 <h2 className="text-2xl font-bold text-blue-300">5. Hak Kekayaan Intelektual</h2>
+              </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Semua desain, rencana teknis, materi marketing, dan konten kampanye Meta Ads yang dibuat 
-                oleh PT EAGLE PAPUA SEJAHTERA tetap menjadi milik intelektual perusahaan sampai pembayaran 
+                Semua desain, rencana teknis, materi marketing, dan konten kampanye Meta Ads yang dibuat
+                oleh PT EAGLE PAPUA SEJAHTERA tetap menjadi milik intelektual perusahaan sampai pembayaran
                 penuh dilakukan. Setelah pelunasan, hak penggunaan dapat dialihkan kepada klien sesuai kesepakatan.
               </p>
             </div>
@@ -229,6 +227,6 @@ export default function Terms() {
           </div>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
