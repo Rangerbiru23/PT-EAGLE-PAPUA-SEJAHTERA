@@ -227,6 +227,5 @@ export default function Terms() {
           </div>
         </footer>
       </div>
-    </div>
   )
 }
